@@ -351,10 +351,10 @@ button .header-video-watch {
     background-color: #86bbf1;
     border-radius: 35px;
 
- 
+
 }
 
-.value-card:hover .value-header p{
+.value-card:hover .value-header p {
     color: #fff;
 }
 
@@ -395,7 +395,7 @@ button .header-video-watch {
     line-height: 50px;
 }
 
-.value-details{
+.value-details {
     padding-inline: 30px;
 }
 
@@ -413,8 +413,8 @@ button .header-video-watch {
 
 .value-card:hover .value-header {
     background-color: #86bbf1;
-    border-radius: 35px; 
-  
+    border-radius: 35px;
+
 }
 
 
@@ -941,7 +941,8 @@ section#about .container {
 
 #appointment-section {
     padding: 50px 0;
-
+    background: url("../assets/images/home/Vector.png") no-repeat right center;
+    background-size: contain;
 }
 
 
@@ -1269,7 +1270,7 @@ footer {
     align-items: flex-start;
 }
 
-.footer-first{
+.footer-first {
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -1449,7 +1450,8 @@ footer {
 
 
 .subfooter {
-    background-color: #307bc4; /* Match the main footer color scheme */
+    background-color: #307bc4;
+    /* Match the main footer color scheme */
     padding: 40px 0;
     font-family: "customFont";
     color: #ffffff;
@@ -1487,7 +1489,8 @@ footer {
 }
 
 .subfooter-links a:hover {
-    color: #307bc4; /* Highlight color */
+    color: #307bc4;
+    /* Highlight color */
 }
 
 .subfooter-links span {
