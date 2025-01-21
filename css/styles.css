@@ -164,7 +164,7 @@ nav.scrolled {
 
 .cs_contact_info {
     margin-top: 20px;
-    
+
 }
 
 .cs_contact_item {
@@ -312,7 +312,7 @@ hr {
     font-size: 14px;
     font-family: "customFont";
     background: transparent;
-   
+
 }
 
 .cs_newsletter-input button {
@@ -822,7 +822,7 @@ section#about .container {
     align-items: center;
     gap: 30px;
     position: relative;
-    height: 55vh;
+    height: 50vh;
     width: 100%;
     border-radius: 15px;
 
@@ -833,6 +833,7 @@ section#about .container {
     font-family: "Fitgee";
     font-size: 56px;
     margin-top: 70px;
+
 }
 
 .moving-dept-cards {
@@ -843,7 +844,7 @@ section#about .container {
     padding-inline: 20px;
 
     position: absolute;
-    bottom: -25%;
+    bottom: -30%;
 
 
 
