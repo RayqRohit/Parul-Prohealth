@@ -822,7 +822,7 @@ section#about .container {
     align-items: center;
     gap: 30px;
     position: relative;
-    height: 50vh;
+    height: 55vh;
     width: 100%;
     border-radius: 15px;
 
@@ -844,7 +844,7 @@ section#about .container {
     padding-inline: 20px;
 
     position: absolute;
-    bottom: -30%;
+    bottom: -25%;
 
 
 
