@@ -85,6 +85,265 @@ nav.scrolled {
     cursor: pointer;
 }
 
+/* sidebar content */
+
+/* Button Style */
+.cs_toolbox_btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.cs_sidebar_toggle_btn svg {
+    fill: currentColor;
+}
+
+/* Sidebar Styles */
+.cs_sidenav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100vh;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.cs_sidenav.active {
+    width: 600px;
+}
+
+.cs_sidenav_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    cursor: pointer;
+    z-index: 999;
+}
+
+.cs_sidenav_in {
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+}
+
+.cs_close {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 45px;
+}
+
+.cs_close img {
+    width: 25px;
+}
+
+.cs_logo_box {
+    text-align: left;
+}
+
+.cs_logo_box img {
+    width: 40%;
+
+}
+
+.cs_fs_24 {
+    font-size: 24px;
+}
+
+.cs_semibold {
+    font-weight: 600;
+    color: #274760;
+    font-size: 20px;
+}
+
+.cs_contact_info {
+    margin-top: 20px;
+    
+}
+
+.cs_contact_item {
+    display: flex;
+    align-items: center;
+    margin-block: 30px;
+    background: #e8f4f7;
+    padding: 20px 30px;
+    border-radius: 21px;
+    gap: 15px;
+}
+
+.cs_contact_item img {
+    width: 35px;
+    margin-right: 10px;
+}
+
+.cs_contact_item h4 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 3px;
+    color: #274760;
+}
+
+.cs_contact_item p {
+    margin: 0;
+    color: #777;
+    font-size: 16px;
+}
+
+.cs_newsletter,
+.cs_social_widget {
+    margin-top: 40px;
+}
+
+.cs_newsletter h4,
+.cs_social_widget h4 {
+    margin-bottom: 10px;
+}
+
+/* Spacing Classes (for demo purposes, you can adjust these) */
+.cs_height_15 {
+    height: 10px;
+}
+
+hr {
+    margin: 20px 0;
+    border: 1px solid #ccc;
+}
+
+/* Active Class for Sidebar Toggle */
+.cs_sidenav.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* another */
+
+
+.cs_sidenav {
+    position: fixed;
+    z-index: 1111;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    transition: all 0.4s ease;
+    opacity: 0;
+    /* Make it hidden initially */
+    visibility: hidden;
+    /* Make it hidden initially */
+}
+
+.cs_sidenav.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.cs_sidenav_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background */
+    visibility: hidden;
+    /* Initially hidden */
+    opacity: 0;
+    /* Initially hidden */
+    cursor: pointer;
+    transition: opacity 0.4s ease, visibility 0.4s ease;
+}
+
+
+.cs_sidenav_in {
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+    width: 100%;
+    padding: 60px 80px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.cs_close {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.cs_close:hover {
+    transform: rotate(90deg);
+}
+
+
+.cs_newsletter {
+    max-width: 32%;
+    font-family: "Fitgee";
+}
+
+.cs_newsletter h4 {
+    font-size: 34px;
+    margin-bottom: 10px;
+    font-family: "Fitgee";
+}
+
+.cs_newsletter-input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    margin-block: 45px;
+}
+
+.cs_newsletter-input input {
+    flex: 1;
+    padding: 25px 25px;
+    border: 1px solid #307bc4;
+    border-radius: 30px;
+    outline: none;
+    font-size: 14px;
+    font-family: "customFont";
+    background: transparent;
+   
+}
+
+.cs_newsletter-input button {
+    position: absolute;
+    right: 8px;
+    background: #307bc4;
+    color: #fff;
+    border: none;
+    width: 40%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.3s;
+    padding: 15px 35px;
+    border-radius: 22px;
+    background: linear-gradient(134deg, #307bc4 0%, #274760 100%);
+    background-size: 200%;
+    background-position: left;
+    transition: background-position 0.4s ease;
+    font-family: "Fitgee";
+    font-weight: 600;
+}
+
+.cs_newsletter-input button p {
+    margin: 0;
+    font-size: 14px;
+    color: #fff;
+}
+
 
 .header-details {
     display: flex;

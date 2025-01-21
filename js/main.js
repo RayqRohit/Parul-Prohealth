@@ -13,6 +13,37 @@ window.addEventListener('scroll', () => {
 });
 
 
+// sidebar
+
+// JavaScript to toggle the sidebar
+// function toggleSideNav() {
+//     const sideNav = document.getElementById('sideNav');
+//     sideNav.classList.toggle('active');
+// }
+
+
+
+// Get the elements
+const toggleSidebarBtn = document.getElementById('toggleSidebarBtn');
+const sidebar = document.getElementById('sidebar');
+const overlay = document.getElementById('overlay');
+const closeSidebarBtn = document.getElementById('closeSidebarBtn');
+
+// Toggle the sidebar and overlay visibility when clicking the toggle button
+toggleSidebarBtn.addEventListener('click', () => {
+  sidebar.classList.add('active');  // Show sidebar
+  overlay.classList.add('active');  // Show overlay
+});
+
+// Close the sidebar and overlay when clicking the close button
+closeSidebarBtn.addEventListener('click', () => {
+  sidebar.classList.remove('active');  // Hide sidebar
+  overlay.classList.remove('active');  // Hide overlay
+});
+
+
+
+
 // accordian
 
 document.querySelectorAll(".accordion-header").forEach((header) => {

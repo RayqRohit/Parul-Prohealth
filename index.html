@@ -54,7 +54,8 @@
                             </svg>
                         </button>
 
-                        <button>
+                        <button class="cs_toolbox_btn cs_sidebar_toggle_btn" type="button" onclick="toggleSideNav()"
+                            id="toggleSidebarBtn">
                             <svg width="35" height="30" viewBox="0 0 35 30" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -68,6 +69,64 @@
                                     fill="currentColor"></path>
                             </svg>
                         </button>
+
+
+                        <!-- Sidebar -->
+                        <div id="sidebar" class="cs_sidenav">
+                            <div class="cs_sidenav_overlay" id="overlay" onclick="toggleSideNav()"></div>
+                            <div class="cs_sidenav_in">
+                                <button class="cs_close" id="closeSidebarBtn" type="button">
+                                    <img src="./assets/images/home/close.svg
+                                    " alt="Close" />
+                                </button>
+                                <div class="cs_logo_box">
+                                    <img src="./assets/images/logo.svg" alt="Logo" />
+                                    <div class="cs_height_15"></div>
+                                    <h3 class="cs_fs_24 cs_semibold mb-0">
+                                        Your Partner in Health and Wellness
+                                    </h3>
+                                </div>
+                                <hr />
+                                <div class="cs_contact_info">
+                                    <div class="cs_contact_item">
+                                        <img src="./assets/images/contact/icon_1.svg" alt="Phone" />
+                                        <div>
+                                            <h4>Phone</h4>
+                                            <p>123-456-7890</p>
+                                        </div>
+                                    </div>
+                                    <div class="cs_contact_item">
+                                        <img src="./assets/images/contact/icon_2.svg" alt="Email" />
+                                        <div>
+                                            <h4>Email</h4>
+                                            <p>hellocallcenter@gmail.com</p>
+                                        </div>
+                                    </div>
+                                    <div class="cs_contact_item">
+                                        <img src="./assets/images/contact/icon_3.svg" alt="Location" />
+                                        <div>
+                                            <h4>Location</h4>
+                                            <p>123 Anywhere St., Any City, 12345</p>
+                                        </div>
+                                    </div>
+                                </div>
+                          
+
+
+                                <div class="cs_newsletter-input">
+                                    <input type="text" placeholder="example@email.com">
+                                    <button>
+                                        <p>Submit <i class="fa-solid fa-arrow-right"></i></p>
+                                    </button>
+                                </div>
+
+                                <hr />
+                                <div class="cs_social_widget">
+                                    <h4>Parul University</h4>
+                                    <!-- Add Social Media Links Here -->
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </nav>
@@ -881,7 +940,7 @@
 
                 <div class="footer-subscribe-input">
                     <input type="text" placeholder="example@email.com">
-                    <button >
+                    <button>
                         <p>Submit <i class="fa-solid fa-arrow-right"></i></p>
                     </button>
                 </div>
@@ -904,7 +963,7 @@
     </div>
 
 
-    
+
 
 
     <script src="./js/main.js"></script>
