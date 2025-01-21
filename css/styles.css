@@ -1512,8 +1512,7 @@ footer {
     position: absolute;
     top: -33%;
     left: 37%;
-
-    width: 426px;
+    width: 407px;
     height: 448px;
 }
 
@@ -1615,7 +1614,7 @@ footer {
     transition: all 0.3s ease;
 }
 
-.footer-second a:hover {
+.footer-third a:hover {
     color: #307bc4;
 }
 
@@ -1628,6 +1627,7 @@ footer {
     font-size: 34px;
     margin-bottom: 10px;
     font-family: "Fitgee";
+    color: #274760;
 }
 
 .footer-subscribe p {
