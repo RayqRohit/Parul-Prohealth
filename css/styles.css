@@ -1393,6 +1393,7 @@ footer {
     outline: none;
     font-size: 14px;
     font-family: "customFont";
+    background: transparent;
 }
 
 .footer-subscribe-input button {
