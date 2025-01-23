@@ -803,7 +803,7 @@ section#about .container {
 .about-details .about-detail {
     font-family: "CustomFont";
     color: #859aab;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .about-details .about-detail:last-child{
