@@ -591,6 +591,7 @@ button .header-video-watch {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
+
     justify-content: space-between;
     transition: all 0.3s ease;
 }
@@ -690,6 +691,8 @@ button .header-video-watch {
 }
 
 
+
+
 #values .container {
     display: flex;
     flex-direction: column;
@@ -701,6 +704,7 @@ button .header-video-watch {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 
 
 }
@@ -769,7 +773,7 @@ section#about .container {
 }
 
 .right-header {
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 
 .right-about-details {
@@ -787,18 +791,24 @@ section#about .container {
     height: auto;
 }
 
-.about-details p:first-child {
+/* .about-details p:first-child {
     margin-bottom: 20px;
     color: #8499ab;
     line-height: 1.3;
 
     font-family: "Fitgee";
     font-size: 26px;
-}
+} */
 
 .about-details .about-detail {
     font-family: "CustomFont";
     color: #859aab;
+    margin-bottom: 10px;
+}
+
+.about-details .about-detail:last-child{
+    margin-top: 30px;
+    font-size: 19px;
 }
 
 
@@ -852,7 +862,7 @@ section#about .container {
 
 .moving-dept-cards .dept-card {
     background: #fff;
-    padding: 50px 30px;
+    padding: 50px 15px;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -882,7 +892,7 @@ section#about .container {
     font-family: "customFont";
     text-align: center;
     color: #274760;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     letter-spacing: 1px;
 }
@@ -890,11 +900,16 @@ section#about .container {
 
 .moving-dept-cards .dept-card img {
     width: 100%;
-    max-width: 90px;
+    max-width: 100px;
     height: auto;
-    object-fit: cover;
+    object-fit: contain;
     margin: 0 auto;
     margin-bottom: 15px;
+
+
+    /* aspect-ratio: 3/2; */
+    mix-blend-mode: multiply;
+   
 
 }
 
