@@ -564,7 +564,7 @@ button .header-video-watch {
 
 
 #values h1 {
-    font-size: 56px;
+    font-size: 50px;
     font-weight: bold;
     margin-bottom: 40px;
     color: #274760;
@@ -572,6 +572,9 @@ button .header-video-watch {
     text-align: center;
     margin-top: 100px;
     padding-bottom: 50px;
+    text-transform: uppercase;
+    
+
 }
 
 /* Values Cards Container */
@@ -647,12 +650,14 @@ button .header-video-watch {
 
 .value-header p {
     color: #274760;
-
     font-family: "Fitgee";
-    font-size: 40px;
+    font-size: 32px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 50px;
+    text-transform: uppercase;
+  
+
 }
 
 .value-details {
@@ -759,13 +764,14 @@ section#about .container {
     margin-bottom: 10px;
 
     font-family: "Fitgee";
+    text-transform: uppercase;
 }
 
 .right-header p {
     font-size: 26px;
     color: #307BC4;
     font-weight: bold;
-    text-transform: uppercase;
+    text-transform:capitilize;
     margin-bottom: 20px;
 
     font-family: "Fitgee";
@@ -817,6 +823,7 @@ section#about .container {
 
 #department {
     padding: 60px 0;
+   
 
 
 
@@ -843,6 +850,7 @@ section#about .container {
     font-family: "Fitgee";
     font-size: 56px;
     margin-top: 70px;
+    text-transform: uppercase;
 
 }
 
@@ -854,7 +862,7 @@ section#about .container {
     padding-inline: 20px;
 
     position: absolute;
-    bottom: -25%;
+    bottom: -19%;
 
 
 
@@ -1513,7 +1521,7 @@ input[type="radio"] {
 footer {
 
 
-    padding-top: 15%;
+    padding-top: 13%;
     margin-top: 10%;
     padding-bottom: 7%;
     background: url("../assets/images/home/footer_bg_1.svg");
