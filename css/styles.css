@@ -1525,10 +1525,13 @@ footer {
 
 .footer-img {
     position: absolute;
-    top: -33%;
-    left: 37%;
-    width: 407px;
-    height: 448px;
+    /* top: -33%; */
+    top: -28%;
+    left: 37.5%;
+    /* width: 407px;
+    height: 448px; */
+    width: 400px;
+    height: 400px;
 }
 
 .footer-img img {
