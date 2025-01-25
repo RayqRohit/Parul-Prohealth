@@ -573,7 +573,7 @@ button .header-video-watch {
     margin-top: 100px;
     padding-bottom: 50px;
     text-transform: uppercase;
-    
+
 
 }
 
@@ -656,7 +656,7 @@ button .header-video-watch {
     font-weight: 700;
     line-height: 50px;
     text-transform: uppercase;
-  
+
 
 }
 
@@ -771,7 +771,7 @@ section#about .container {
     font-size: 26px;
     color: #307BC4;
     font-weight: bold;
-    text-transform:capitilize;
+    text-transform: capitilize;
     margin-bottom: 20px;
 
     font-family: "Fitgee";
@@ -812,7 +812,7 @@ section#about .container {
     margin-bottom: 15px;
 }
 
-.about-details .about-detail:last-child{
+.about-details .about-detail:last-child {
     margin-top: 30px;
     font-size: 19px;
 }
@@ -823,7 +823,7 @@ section#about .container {
 
 #department {
     padding: 60px 0;
-   
+
 
 
 
@@ -917,7 +917,7 @@ section#about .container {
 
     /* aspect-ratio: 3/2; */
     mix-blend-mode: multiply;
-   
+
 
 }
 
@@ -1781,4 +1781,473 @@ footer {
 
 .subfooter-links span {
     color: #ffffff;
+}
+
+
+/* about */
+
+
+.about-header {
+
+    width: 100%;
+    height: 85vh;
+    background: url("../assets/images/home/hero_bg.jpeg");
+    background-size: cover;
+    position: relative;
+
+}
+
+.about-header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 113px;
+    gap: 55px;
+    overflow-y: hidden;
+}
+
+.header-content-left {
+    flex: 1;
+}
+
+.header-content-left .header-img {
+    width: 600px;
+}
+
+.header-img img {
+    width: 100%;
+}
+
+.header-content-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-content-right h1 {
+    font-family: "Fitgee";
+    font-size: 56px;
+    color: #274760;
+    margin-bottom: 25px;
+}
+
+.header-content-right p {
+    font-size: 20px;
+    line-height: 1.5em;
+    font-family: "customFont";
+    color: #274760;
+}
+
+
+/* Services Section */
+#services {
+    padding: 80px 0;
+    background-color: #ffffff;
+}
+
+#services .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+#services .card {
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 21px 1px rgba(48, 123, 196, 0.1);
+    width: calc(33.333% - 20px);
+    min-width: 280px;
+    padding-top: 25px;
+    padding-left: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* Push footer to the bottom */
+    transition: transform 0.3s, box-shadow 0.3s;
+    gap: 5px;
+}
+
+
+#services .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+#services .card-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #307bc4;
+    /* Set the background color */
+    border-radius: 50%;
+    /* Makes it a circular background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Optional for a subtle shadow */
+}
+
+#services .card-icon img {
+    width: 50%;
+    height: 50%;
+}
+
+/* Card Icon */
+
+
+/* Card Content */
+#services .card-content {
+    flex-grow: 1;
+    /* Ensures the content takes up available space */
+}
+
+#services .card-content h1 {
+    font-size: 26px;
+    color: #274760;
+    margin-bottom: 10px;
+    font-family: "Fitgee";
+}
+
+#services .card-content p {
+    font-size: 1rem;
+    color: rgba(39, 71, 96, 0.52);
+    line-height: 1.5;
+    font-family: "customFont";
+    width: 75%;
+}
+
+/* Learn More Button (Footer) */
+#services .card-learn-more {
+    align-self: flex-end;
+
+}
+
+#services .card-learn-more a {
+    display: inline-block;
+    background-color: #307bc4;
+    padding: 12px 25px;
+    transition: background-color 0.3s;
+    border-radius: 10px 0 15px 0;
+}
+
+#services .card-learn-more a img {
+    width: 25px;
+    height: 20px;
+}
+
+#services .card-learn-more a:hover {
+    background-color: #0056b3;
+}
+
+#services .card:first-child {
+    border: none;
+    border-radius: 0;
+    transform: none;
+    box-shadow: none;
+    padding: 0;
+}
+
+#services .card:first-child p {
+    font-size: 26px;
+    color: #307bc4;
+    font-family: "Fitgee";
+    font-weight: 600;
+}
+
+#services .card:first-child h1 {
+    font-size: 56px;
+    color: #274760;
+    font-family: "Fitgee";
+}
+
+
+/* why choose section */
+
+#why-choose-us {
+    padding: 70px 0;
+    position: relative;
+    background: linear-gradient(to right, #f2f8fd, #ffffff);
+}
+
+#why-choose-us::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: inherit;
+    z-index: 0;
+}
+
+#why-choose-us .container {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: space-between;
+    gap: 55px;
+    margin: 0 auto;
+}
+
+/* Left Side Styling */
+.choose-left {}
+
+.choose-left img {
+    width: 100%;
+    max-width: 485px;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Right Side Styling */
+.choose-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Header Styling */
+.choose-header h1 {
+    font-size: 56px;
+    color: #274760;
+    margin-bottom: 20px;
+    text-align: left;
+    font-family: "Fitgee";
+}
+
+/* Cards Container */
+.choose-cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+/* Individual Card Styling */
+.choose-card {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 15px;
+}
+
+
+.card-img {
+    width: 40px;
+    height: 40px;
+    background-color: #307bc4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Card Image */
+.card-img img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+/* Card Content */
+.choose-card-contents h1 {
+    font-size: 26px;
+    color: #274760;
+    margin-bottom: 10px;
+    font-family: "Fitgee";
+}
+
+.choose-card-contents p {
+    font-size: 1rem;
+    color: rgba(39, 71, 96, 0.52);
+    line-height: 1.6;
+
+    font-family: "customFont";
+}
+
+
+/* facilities section */
+
+#ourfacilities {
+    padding: 60px 0;
+    background: linear-gradient(to right, #f2f8fd, #ffffff);
+}
+
+.facilities-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+        "facilities-first-container facilities-first-container facilities-1"
+        "facilities-2 facilities-3 facilities-1"
+        "facilities-4 facilities-4 facilities-5";
+    gap: 20px;
+    /* Adds spacing between items */
+}
+
+.facilities-first-container {
+    grid-area: facilities-first-container;
+
+
+}
+
+.facilities-first-container p {
+    color: #307BC4;
+    font-size: 26px;
+    font-family: "Fitgee";
+    font-weight: 600;
+    margin-bottom: 10px;
+
+
+
+}
+
+.facilities-first-container h1 {
+    color: #274760;
+    font-size: 56px;
+    font-family: "Fitgee";
+    width: 60%;
+    margin-bottom: 25px;
+    line-height: 1.14em;
+
+}
+
+.facilities-1 {
+    grid-area: facilities-1;
+    height: 100%;
+
+
+}
+
+
+
+.facilities-2 {
+    grid-area: facilities-2;
+}
+
+.facilities-3 {
+    grid-area: facilities-3;
+}
+
+.facilities-4 {
+    grid-area: facilities-4;
+}
+
+.facilities-5 {
+    grid-area: facilities-5;
+}
+
+.facilities-container img {
+    width: 100%;
+
+    border-radius: 35px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+
+
+/* awards */
+
+#awards {
+    padding: 60px 0;
+    /* Adds spacing around the section */
+    background-color: #f9f9f9;
+    /* Light background for the section */
+    text-align: center;
+}
+
+.awards-header {
+    margin-bottom: 40px;
+}
+
+.awards-header p:first-child {
+    font-size: 26px;
+    font-weight: 600;
+    color: #307bc4;
+    margin-bottom: 10px;
+    font-family: "Fitgee";
+}
+
+.awards-header h1 {
+    font-size: 56px;
+    color: #274760;
+    margin-bottom: 15px;
+    font-family: "Fitgee";
+    width: 55%;
+    margin: auto;
+}
+
+.awards-header p:last-child {
+    font-size: 18px;
+    color: rgba(39, 71, 96, 0.52);
+    font-family: "customFont";
+    width: 40%;
+    margin: auto;
+    padding-block: 30px;
+}
+
+.awards-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    /* Responsive grid */
+    gap: 20px;
+    /* Space between grid items */
+    justify-items: center;
+    /* Center-align items horizontally */
+}
+
+.list {
+    background: #fff;
+    /* White background for each list item */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 15px;
+    /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for elevation */
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    /* Smooth hover effect */
+}
+
+.list:hover {
+    transform: translateY(-5px);
+    /* Slight lift effect on hover */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    /* Enhanced shadow on hover */
+}
+
+.list-img-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #307BC4;
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+}
+
+.list-img-icon img {
+
+    width: 100%;
+
+}
+
+.list p {
+    font-size: 20px;
+    color: #333;
+    font-weight: 500;
+    margin: 0;
+    text-align: left;
+    margin-left: 20px;
+    width: 80%;
+    font-family: "Fitgee";
 }

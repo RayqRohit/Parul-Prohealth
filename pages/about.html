@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - ProHealth</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="shortcut icon" href="../assets/images/home/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+
+<body>
+
+
+    <!-- Header section -->
+    <header class="about-header">
+
+        <div class="header-container">
+
+            <nav>
+                <div class="container nav-container">
+                    <div class="nav-logo">
+                        <a href="">
+                            <!-- <img src="./assets/images/logo.svg" alt=""> -->
+                            <img src="../assets/images/logo-9.png" alt="">
+                        </a>
+                    </div>
+
+
+                    <div class="nav-menu">
+                        <ul>
+                            <li><a href="/index.html">Home</a></li>
+                            <li><a href="../pages/about.html">About</a></li>
+                            <li><a href="">Find Doctor</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Pages</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="nav-icons">
+                        <button>
+                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M13.1684 0C5.91146 0 0 5.90944 0 13.164C0 20.4184 5.91146 26.3394 13.1684 26.3394C16.2681 26.3394 19.1188 25.2535 21.3719 23.4505L26.8571 28.931C27.1339 29.1962 27.5036 29.3426 27.887 29.3386C28.2704 29.3347 28.6371 29.1809 28.9084 28.91C29.1797 28.6392 29.3342 28.2729 29.3386 27.8896C29.3431 27.5064 29.1972 27.1365 28.9322 26.8595L23.4471 21.3762C25.2521 19.1204 26.3397 16.2662 26.3397 13.164C26.3397 5.90944 20.4254 0 13.1684 0ZM13.1684 2.926C18.8435 2.926 23.4099 7.49078 23.4099 13.164C23.4099 18.8371 18.8435 23.4134 13.1684 23.4134C7.4933 23.4134 2.92695 18.8371 2.92695 13.164C2.92695 7.49078 7.4933 2.926 13.1684 2.926Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </button>
+
+                        <button class="cs_toolbox_btn cs_sidebar_toggle_btn" type="button" onclick="toggleSideNav()"
+                            id="toggleSidebarBtn">
+                            <svg width="35" height="30" viewBox="0 0 35 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0.483887 2.46544C0.483887 1.10383 1.14618 0 1.96315 0H33.5208C34.3377 0 35 1.10383 35 2.46544C35 3.82708 34.3377 4.93088 33.5208 4.93088H1.96315C1.14618 4.93088 0.483887 3.82708 0.483887 2.46544Z"
+                                    fill="currentColor"></path>
+                                <path
+                                    d="M0.483887 14.6694C0.483887 13.3074 1.14618 12.2039 1.96315 12.2039H33.5208C34.3377 12.2039 35 13.3074 35 14.6694C35 16.0309 34.3377 17.1348 33.5208 17.1348H1.96315C1.14618 17.1348 0.483887 16.0309 0.483887 14.6694Z"
+                                    fill="currentColor"></path>
+                                <path
+                                    d="M0.483887 26.6267C0.483887 25.2648 1.14618 24.1613 1.96315 24.1613H33.5208C34.3377 24.1613 35 25.2648 35 26.6267C35 27.9883 34.3377 29.0922 33.5208 29.0922H1.96315C1.14618 29.0922 0.483887 27.9883 0.483887 26.6267Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </button>
+
+
+                        <!-- Sidebar -->
+                        <div id="sidebar" class="cs_sidenav">
+                            <div class="cs_sidenav_overlay" id="overlay" onclick="toggleSideNav()"></div>
+                            <div class="cs_sidenav_in">
+                                <button class="cs_close" id="closeSidebarBtn" type="button">
+                                    <img src="../assets/images/home/close.svg
+                                    " alt="Close" />
+                                </button>
+                                <div class="cs_logo_box">
+                                    <!-- <img src="./assets/images/logo.svg" alt="Logo" /> -->
+                                    <img src="../assets/images/logo-9.png" alt="">
+                                    <div class="cs_height_15"></div>
+                                    <h3 class="cs_fs_24 cs_semibold mb-0">
+                                        Your Partner in Health and Wellness
+                                    </h3>
+                                </div>
+                                <hr />
+                                <div class="cs_contact_info">
+                                    <div class="cs_contact_item">
+                                        <img src="../assets/images/contact/icon_1.svg" alt="Phone" />
+                                        <div>
+                                            <h4>Phone</h4>
+                                            <p>63589 15335</p>
+                                        </div>
+                                    </div>
+                                    <div class="cs_contact_item">
+                                        <img src="../assets/images/contact/icon_2.svg" alt="Email" />
+                                        <div>
+                                            <h4>Email</h4>
+                                            <p>hellocallcenter@gmail.com</p>
+                                        </div>
+                                    </div>
+                                    <div class="cs_contact_item">
+                                        <img src="../assets/images/contact/icon_3.svg" alt="Location" />
+                                        <div>
+                                            <h4>Location</h4>
+                                            <p>Above Diva Hospital, Near Amitnagar Circle, VIP Rd, Karelibagh,
+                                                Vadodara, Gujarat 390022</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="cs_newsletter-input">
+                                    <input type="text" placeholder="example@email.com">
+                                    <button>
+                                        <p>Submit <i class="fa-solid fa-arrow-right"></i></p>
+                                    </button>
+                                </div>
+
+                                <hr />
+                                <div class="cs_social_widget">
+                                    <h4 style="color: #27486e;">Parul University</h4>
+                                    <!-- Add Social Media Links Here -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+
+            <div class="about-header-content container">
+
+                <div class="header-content-left">
+
+                    <div class="header-img">
+                        <img src="../assets/images/about/banner_img.png" alt="">
+                    </div>
+                </div>
+
+                <div class="header-content-right">
+
+                    <h1>Welcome to <br>
+                        ProHealth Medical & Healthcare Center</h1>
+
+                    <p>Your Partner in Health and Wellness</p>
+
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+
+    </header>
+
+
+
+    <main>
+        <section id="services">
+
+
+            <div class="container">
+
+
+                <div class="cards">
+
+
+
+                    <div class="card">
+
+                        <div class="card-container">
+                            <p>SERVICES</p>
+                            <h1>Provides Our Best Services</h1>
+                        </div>
+
+
+                    </div>
+                    <div class="card">
+
+                        <div class="card-icon">
+                            <img src="../assets/images/about/calendar_white.svg" alt="">
+                        </div>
+
+                        <div class="card-content">
+
+                            <h1>Diagnostic testing</h1>
+
+                            <p>Blood tests, imaging studies, and other tests to diagnose health conditions</p>
+
+                        </div>
+
+                        <div class="card-learn-more">
+                            <a href="">
+                                <img src="../assets/images/about/arrow_white.svg" alt="">
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="card">
+
+                        <div class="card-icon">
+                            <img src="../assets/images/about/calendar_white.svg" alt="">
+                        </div>
+
+                        <div class="card-content">
+
+                            <h1>Rehabilitation services</h1>
+
+                            <p>Physical therapy, occupational therapy, and other services to help patients recover from
+                                injuries</p>
+
+                        </div>
+
+                        <div class="card-learn-more">
+                            <a href="">
+                                <img src="../assets/images/about/arrow_white.svg" alt="">
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="card">
+
+                        <div class="card-icon">
+                            <img src="../assets/images/about/calendar_white.svg" alt="">
+                        </div>
+
+                        <div class="card-content">
+
+                            <h1>Preventive care</h1>
+
+                            <p>Annual checkups, immunizations, and health screenings care preventive</p>
+
+                        </div>
+
+                        <div class="card-learn-more">
+                            <a href="">
+                                <img src="../assets/images/about/arrow_white.svg" alt="">
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="card">
+
+                        <div class="card-icon">
+                            <img src="../assets/images/about/calendar_white.svg" alt="">
+                        </div>
+
+                        <div class="card-content">
+
+                            <h1>Treatment for acute and chronic conditions</h1>
+
+                            <p>Medication management, disease management, and other treatments to improve health
+                                outcomes</p>
+
+                        </div>
+
+                        <div class="card-learn-more">
+                            <a href="">
+                                <img src="../assets/images/about/arrow_white.svg" alt="">
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="card">
+
+                        <div class="card-icon">
+                            <img src="../assets/images/about/calendar_white.svg" alt="">
+                        </div>
+
+                        <div class="card-content">
+
+                            <h1>Mental health services</h1>
+
+                            <p>Counseling, therapy, and other services to help patients manage mental health conditions
+                            </p>
+
+                        </div>
+
+                        <div class="card-learn-more">
+                            <a href="">
+                                <img src="../assets/images/about/arrow_white.svg" alt="">
+                            </a>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+        <section id="why-choose-us">
+            <div class="container">
+                <div class="choose-left">
+
+                    <img src="../assets/images/about/why_choose_us.jpeg" alt="">
+
+                </div>
+                <div class="choose-right">
+
+
+                    <div class="choose-header">
+                        <h1>Why Choose Us</h1>
+                    </div>
+
+
+                    <div class="choose-cards-container">
+
+
+                        <div class="choose-card">
+
+                            <div class="card-img">
+                                <img src="../assets/images/about/professional.svg" alt="">
+                            </div>
+
+                            <div class="choose-card-contents">
+                                <h1>Experienced Medical Professionals</h1>
+                                <p>Our team includes experienced doctors, nurses, and other healthcare professionals who
+                                    are dedicated to providing the best possible care to our patients.</p>
+                            </div>
+
+                        </div>
+                        <div class="choose-card">
+
+                            <div class="card-img">
+                                <img src="../assets/images/about/professional.svg" alt="">
+                            </div>
+
+                            <div class="choose-card-contents">
+                                <h1>Experienced Medical Professionals</h1>
+                                <p>Our team includes experienced doctors, nurses, and other healthcare professionals who
+                                    are dedicated to providing the best possible care to our patients.</p>
+                            </div>
+
+                        </div>
+                        <div class="choose-card">
+
+                            <div class="card-img">
+                                <img src="../assets/images/about/professional.svg" alt="">
+                            </div>
+
+                            <div class="choose-card-contents">
+                                <h1>Experienced Medical Professionals</h1>
+                                <p>Our team includes experienced doctors, nurses, and other healthcare professionals who
+                                    are dedicated to providing the best possible care to our patients.</p>
+                            </div>
+
+                        </div>
+                        <div class="choose-card">
+
+                            <div class="card-img">
+                                <img src="../assets/images/about/professional.svg" alt="">
+                            </div>
+
+                            <div class="choose-card-contents">
+                                <h1>Experienced Medical Professionals</h1>
+                                <p>Our team includes experienced doctors, nurses, and other healthcare professionals who
+                                    are dedicated to providing the best possible care to our patients.</p>
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section id="ourfacilities">
+            <div class="container">
+                <div class="facilities-container">
+                    <!-- Facilities First Container -->
+                    <div class="facilities-first-container">
+                        <p>HAVE A LOOK AT</p>
+                        <h1>Our Facilities and
+                            Latest Activities</h1>
+                    </div>
+                    <!-- Individual Images -->
+                    <img src="../assets/images/about/portfolio_1_lg.jpeg" alt="Facility 1" class="facilities-1">
+                    <img src="../assets/images/about/portfolio_2_lg.jpeg" alt="Facility 2" class="facilities-2">
+                    <img src="../assets/images/about/portfolio_3_lg.jpeg" alt="Facility 3" class="facilities-3">
+                    <img src="../assets/images/about/portfolio_4_lg.jpeg" alt="Facility 4" class="facilities-4">
+                    <img src="../assets/images/about/portfolio_5_lg.jpeg" alt="Facility 5" class="facilities-5">
+                </div>
+            </div>
+        </section>
+
+
+        <section id="awards">
+
+            <div class="container">
+                <div class="awards-header">
+
+                    <p>
+                        AWARDS</p>
+
+                        <h1>Winning Awards and
+                            Recognition</h1>
+
+                            <p>We have been recognized for our commitment to
+                                excellence in healthcare.</p>
+
+                </div>
+
+
+                <div class="awards-list">
+                    <div class="list">
+
+                        <div class="list-img-icon">
+                            <img src="../assets/images/home/award.svg" alt="">
+                        </div>
+                        <p>Malcolm Baldrige National Quality Award</p>
+
+                    </div>
+                    <div class="list">
+
+                        <div class="list-img-icon">
+                            <img src="../assets/images/home/award.svg" alt="">
+                        </div>
+                        <p>Malcolm Baldrige National Quality Award</p>
+
+                    </div>
+                    <div class="list">
+
+                        <div class="list-img-icon">
+                            <img src="../assets/images/home/award.svg" alt="">
+                        </div>
+                        <p>Malcolm Baldrige National Quality Award</p>
+
+                    </div>
+                    <div class="list">
+
+                        <div class="list-img-icon">
+                            <img src="../assets/images/home/award.svg" alt="">
+                        </div>
+                        <p>Malcolm Baldrige National Quality Award</p>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-img">z
+                <img src="../assets/images/home/Background.png   " alt="">
+            </div>
+            <div class="footer-first">
+                <div class="footer-header-content">
+                    <p><img src="../assets/images/logo-9.png" alt=""></p>
+                </div>
+
+
+                <div class="social-icons">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            aria-hidden="true" role="img" class="iconify iconify--ep" width="1em" height="1em"
+                            viewBox="0 0 1024 1024">
+                            <path fill="currentColor"
+                                d="M800 416a288 288 0 1 0-576 0c0 118.144 94.528 272.128 288 456.576C705.472 688.128 800 534.144 800 416M512 960C277.312 746.688 160 565.312 160 416a352 352 0 0 1 704 0c0 149.312-117.312 330.688-352 544">
+                            </path>
+                            <path fill="currentColor"
+                                d="M512 512a96 96 0 1 0 0-192a96 96 0 0 0 0 192m0 64a160 160 0 1 1 0-320a160 160 0 0 1 0 320">
+                            </path>
+                        </svg>
+                        <p>123 Anywhere St., Any City 12345</p>
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            aria-hidden="true" role="img" class="iconify iconify--ep" width="1em" height="1em"
+                            viewBox="0 0 1024 1024">
+                            <path fill="currentColor"
+                                d="M800 416a288 288 0 1 0-576 0c0 118.144 94.528 272.128 288 456.576C705.472 688.128 800 534.144 800 416M512 960C277.312 746.688 160 565.312 160 416a352 352 0 0 1 704 0c0 149.312-117.312 330.688-352 544">
+                            </path>
+                            <path fill="currentColor"
+                                d="M512 512a96 96 0 1 0 0-192a96 96 0 0 0 0 192m0 64a160 160 0 1 1 0-320a160 160 0 0 1 0 320">
+                            </path>
+                        </svg>
+                        <p>123-456-7890</p>
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            aria-hidden="true" role="img" class="iconify iconify--ep" width="1em" height="1em"
+                            viewBox="0 0 1024 1024">
+                            <path fill="currentColor"
+                                d="M800 416a288 288 0 1 0-576 0c0 118.144 94.528 272.128 288 456.576C705.472 688.128 800 534.144 800 416M512 960C277.312 746.688 160 565.312 160 416a352 352 0 0 1 704 0c0 149.312-117.312 330.688-352 544">
+                            </path>
+                            <path fill="currentColor"
+                                d="M512 512a96 96 0 1 0 0-192a96 96 0 0 0 0 192m0 64a160 160 0 1 1 0-320a160 160 0 0 1 0 320">
+                            </path>
+                        </svg>
+                        <p>hellocallcenter@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="footer-second">
+                <a href="">About Us</a>
+                <a href="">Departments</a>
+                <a href="">Doctors</a>
+                <a href="">Timetable</a>
+                <a href="">Appointment</a>
+                <a href="">Testimonials</a>
+            </div>
+
+            <div class="footer-third">
+                <a href="">Blog</a>
+                <a href="">Contact Us</a>
+                <a href="">FAQs</a>
+                <a href="">Privacy Policy</a>
+                <a href="">Terms and Conditions</a>
+            </div>
+
+
+            <div class="footer-subscribe">
+                <h1>Be Our Subscribers</h1>
+                <p>To get the latest news about health from our experts</p>
+
+                <div class="footer-subscribe-input">
+                    <input type="text" placeholder="example@email.com">
+                    <button>
+                        <p>Submit <i class="fa-solid fa-arrow-right"></i></p>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+
+
+    <div class="subfooter">
+        <div class="subfooter-container container">
+            <p>© 2025 Parul University. All Rights Reserved.</p>
+            <div class="subfooter-links">
+                <a href="#">Terms of Service</a>
+                <span>|</span>
+                <a href="#">Privacy Policy</a>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
